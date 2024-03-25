@@ -1,0 +1,17 @@
+.meuilleur{
+	font-size: 50px;
+	color:#315d6d;
+	text-align: center;
+}
+
+.divproduits{
+	display: grid;
+	grid-template-rows: 1fr , 1fr, 1fr;
+	grid-template-columns: 1fr ,1fr;
+	grid-template-areas: "produit1 produit2"
+						 "produit3 produit4" 
+						 "prdouit5 produit5";
+	grid-gap: 5em;
+
+}
+
